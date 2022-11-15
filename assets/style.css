@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+header{
+    background: rgb(24,124,144);
+    background: radial-gradient(circle, rgba(24,124,144,1) 0%, rgba(6,6,55,1) 35%, rgba(24,124,144,1) 100%); 
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    height: 75px;
+    padding: 0%; 
+    position:fixed;
+    
+}
+a:hover{
+    font-weight: bolder;
+}
+
+.logo{
+  height: 70px;px;
+  margin-left: 1rem;
+}
+
+
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-right: 2rem;
+    
+}
+
+.navbar {
+    gap: 150px;
+}
+
+.navbar-list li:first-child > a {
+    font-weight: bold;
+}
+.navbar-list {
+    gap: 28px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 15px;
+    
+
+}
+
+main {
+background-color: rgb(24,124,144);
+background: radial-gradient(circle, rgba(24,124,144,1) 0%, rgba(6,6,55,1) 35%, rgba(24,124,144,1) 100%); 
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width:100%;
+
+
+}
+
+
+#hero {
+    
+    display: flex;
+    flex-direction: center;
+    padding: 70px 0px;
+    max-width: 1200px;
+
+    }
+
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    text-align:left;
+    margin-right: 200px;
+    
+    
+}
+
+h1 {
+    color: white;
+    width: 80%;
+    min-width: 500px;
+    font-size: 40px;
+    
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    color: rgb(142, 146, 159);
+    font-size: 25px;
+   
+}
+.button {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #3A6073;
+    border-radius: 10px;
+    padding: 15px 15px;
+    border-color: #3A6073;
+    
+
+}
+
+p {
+    color: grey;
+}
+
+p > span {
+    font-weight: bolder;
+
+}
+
+.hero-card {
+    width: 300px;
+    height: 310px;
+    background: radial-gradient(circle, rgba (24,124,144,1) 0%, rgba (6,6,55,1) 35%, rgba (24,124,144,1) 100%);
+    padding: 6px 4px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.seg-div {
+background-color:radial-gradient(circle, rgba (24,124,144,1) 0%, rgba (6,6,55,1) 35%, rgba (24,124,144,1) 100%);
+color: white;
+font-size: 25px;
+text-decoration:underline;
+display: flex;
+margin-right: 500px;
+
+
+}
+
+.parrafo-2 {
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 200px;
+    
+    
+    
+}
+
+
+
